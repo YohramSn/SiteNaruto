@@ -1,0 +1,108 @@
+body{
+    margin: 0; /*Zera as margens da página */
+    padding: 0; /*Zera os espaçamentos entre os objetos*/
+}
+
+header{
+    position: absolute; /* Coloca o objeto exatamente onde eu colocar as margens  */
+    width: 100%; /* mexe na largura da tag */
+    height: 150px; /* mexe na altura da tag */
+    background-image: url(../img/titulo.gif);
+    background-size: 100% 150px;
+    background-repeat: no-repeat; /* não deixa a imagem repetir */
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    margin-top: 155px;
+    background-color: #8c0b08;/*Coloca uma cor de fundo na tag */
+    box-shadow: 5px 1px 10px rgb(0, 0, 0); /*Coloca uma sombra na div */
+    /* primeira medida é a sombra do lado direito da tag, segunda medida é a sombra para baixo da tag */ 
+    text-align: center; /* alinha o texto no centro da tag */
+   /* border-radius: deixa a borda arredondada */
+}
+
+nav a {
+    text-decoration: none; /* tira o sublinhado do link */
+    font-size: 30px; /* muda o tamanho da fonte */
+    color: #ded110; /* muda a cor da fonte */
+    padding-left: 3%; /* coloca um espaço entre as palavras na esquerda */
+    text-shadow: 0px 2px 3px #888888; /* coloca uma sombra no texto */
+
+}
+
+nav a:hover{
+    color: #888888;
+    transition: 0.2s ease-out;
+}
+
+#esq{
+    position: absolute;
+    width: 10%;
+    height: 769px;
+    margin-top: 200px;
+    background-color: #4f2f4f;
+}
+img{
+    width: 100%;
+}
+
+#dir{
+    position: absolute;
+    width: 10%;
+    height: 769px;
+    margin-top: 200px;
+    margin-left: 90%;
+    background-color: #4f2f4f;
+}
+
+article{
+    position: absolute;
+    width: 80%;
+    height: 769px;
+    margin-top: 200px;
+    margin-left: 10%;
+    background-color: black;
+    background-image: url(../img/Fundo.jpg);
+    background-size: 100% 769px;
+    background-color: rgb(0, 0, 128);
+}
+footer{
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    margin-top: 960px;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    height: 770px;
+    background-color: rgba(0, 0, 128, 0.6);
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 50px;
+}
+#tm{
+    width: 20%;
+    float: left;
+    padding: 12px;
+}
+#lk{
+    width: 50%;
+    margin-left: 25%;
+}
